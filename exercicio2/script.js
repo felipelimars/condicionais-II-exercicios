@@ -13,3 +13,26 @@ if(nacionalidade === "brasileira"){
 } else{
     console.log("nacionalidade não encontrada")
 }
+
+// exercicio 2 (switch)
+
+switch (nacionalidade){
+    case `brasileira`:
+    console.log(`Sua nacionalidade é brasileira`)
+    break
+    case `argentina`: 
+    console.log(`Sua nacionalidade é argentina`)
+    break
+    case `uruguaia`:
+    console.log(`Sua nacionalidade é uruguaia`)
+    break
+    case `chilena`: 
+    console.log (`Sua nacionalidade é chilena`)
+    break
+    case `colombiana`: 
+    console.log(`Sua nacionalidade é colombiana`)
+    break
+    default:
+    console.log(`Sua naconalidade não foi encontrada`)
+    break
+}
